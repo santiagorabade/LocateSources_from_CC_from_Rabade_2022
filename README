@@ -1,0 +1,16 @@
+The location code is made by two parts
+
+1. get_envelope_3D_2share.m : Getting the amplitude out for each station pair and store it
+2. plot_envelope_3D_2share.m : Stack and plot the surfaces
+
+geometry.mat file contains lat and lon of stations
+timelist0726 contains the time string of the crosscorrelation
+
+The code is thoroughly commented, if not feel free to contact by email.
+san.rabade@gmail.com
+
+The refernce should be:
+Rabade, S., Wu, S.M., Lin, F.-C. and Chambers, D.J., 2022. Isolating and 
+Tracking Noise Sources across an Active Longwall Mine Using Seismic 
+Interferometry. Bulletin of the Seismological Society of America. 
+https://doi.org/10.1785/0120220031
